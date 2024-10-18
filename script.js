@@ -88,3 +88,5 @@ const restart = () => {
 
 document.addEventListener('keydown', jump);
 document.addEventListener('touchstart', jump);
+
+restartButton.addEventListener('click', restart);
